@@ -2,16 +2,16 @@
 
 # Management Inventory — Golang Native
 
-Sistem manajemen inventaris yang dibangun dengan **Go** native.
+An inventory management system built with **Go** using only the standard library (no external frameworks).
 
-## Fitur
+## Features
 
-- CRUD barang
-- Manajemen stok masuk dan keluar
-- Laporan inventaris
+- Item CRUD
+- Stock in/out management
+- Inventory reports
 - RESTful API
 
-## Cara Menjalankan
+## Getting Started
 
 `ash
 git clone https://github.com/RifkyA911/Management-Inventory-Golang-Native.git
@@ -22,6 +22,6 @@ go run main.go
 
 ## Tech Stack
 
-- Bahasa: Go
+- Language: Go
 - Database: MySQL / PostgreSQL
-- Arsitektur: REST API native
+- Architecture: Native REST API
